@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EcoAir Monitor | Dashboard</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-content">
+      <a class="brand" href="index.html" aria-label="EcoAir Monitor - página inicial">
+        <span class="brand-icon" aria-hidden="true">EA</span>
+        <span>EcoAir Monitor</span>
+      </a>
+
+      <nav class="main-nav" aria-label="Menu principal">
+        <a class="active" href="index.html">Início</a>
+        <a href="alertas.html">Alertas</a>
+        <a href="educacao.html">Educação Ambiental</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-shell">
+    <section class="hero dashboard-hero">
+      <div class="container dashboard-hero-grid">
+        <div>
+          <p class="eyebrow">Painel de monitoramento ambiental</p>
+          <h1>Dashboard de qualidade do ar para acompanhamento público.</h1>
+          <p class="hero-text">Indicadores meteorológicos reais de João Pessoa - PB, integrados à Open-Meteo e combinados a uma estimativa local de qualidade do ar.</p>
+        </div>
+
+        <aside class="hero-summary" aria-label="Resumo operacional">
+          <span class="summary-label" id="cidade-monitorada">João Pessoa - PB</span>
+          <strong id="monitoramento-status">Conectando à API</strong>
+          <p id="fonte-dados">Dados meteorológicos reais via Open-Meteo.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="container dashboard-section" aria-labelledby="dashboard-title">
+      <div class="section-heading heading-row">
+        <div>
+          <p class="eyebrow">Visão geral</p>
+          <h2 id="dashboard-title">Indicadores ambientais</h2>
+        </div>
+        <p class="section-note">Leitura atual de temperatura, umidade, vento e risco atmosférico estimado.</p>
+      </div>
+
+      <div class="update-row" aria-live="polite">
+        <span id="ultima-atualizacao">Última atualização: aguardando dados</span>
+        <span class="api-status is-loading" id="status-api">Buscando dados meteorológicos</span>
+      </div>
+
+      <div class="feedback-message is-hidden" id="mensagem-erro" role="status">
+        Não foi possível atualizar os dados meteorológicos.
+      </div>
+
+      <!-- Os cartões são criados dinamicamente pelo arquivo js/script.js com dados reais da API. -->
+      <div class="metric-grid" id="indicadores" aria-live="polite"></div>
+    </section>
+
+    <section class="container insights-grid" aria-label="Qualidade do ar e risco ambiental">
+      <article class="quality-panel" id="painel-qualidade">
+        <div class="panel-header">
+          <div>
+            <p class="eyebrow">Qualidade do ar</p>
+            <h2>Situação atual</h2>
+          </div>
+          <span class="quality-badge" id="qualidade-badge">--</span>
+        </div>
+
+        <div class="quality-meter" aria-label="Escala visual de qualidade do ar">
+          <span class="quality-dot status-boa"></span>
+          <span class="quality-dot status-moderada"></span>
+          <span class="quality-dot status-ruim"></span>
+          <span class="quality-dot status-muito-ruim"></span>
+        </div>
+
+        <p class="quality-message" id="qualidade-mensagem">Carregando avaliação ambiental.</p>
+      </article>
+
+      <article class="risk-panel">
+        <div class="panel-header">
+          <div>
+            <p class="eyebrow">Risco ambiental</p>
+            <h2>Barra de risco</h2>
+          </div>
+          <span class="risk-current" id="risco-atual">--</span>
+        </div>
+
+        <div class="risk-scale" id="barra-risco" aria-label="Escala de risco ambiental">
+          <span class="risk-step" data-risk="Baixo">Baixo</span>
+          <span class="risk-step" data-risk="Moderado">Moderado</span>
+          <span class="risk-step" data-risk="Alto">Alto</span>
+          <span class="risk-step" data-risk="Crítico">Crítico</span>
+        </div>
+
+        <p class="risk-message" id="risco-mensagem">A escala combina qualidade do ar e condições climáticas para indicar necessidade de atenção.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 EcoAir Monitor. Projeto acadêmico de conscientização ambiental.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

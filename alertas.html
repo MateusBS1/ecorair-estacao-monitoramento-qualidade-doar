@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EcoAir Monitor | Alertas</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-content">
+      <a class="brand" href="index.html" aria-label="EcoAir Monitor - página inicial">
+        <span class="brand-icon" aria-hidden="true">EA</span>
+        <span>EcoAir Monitor</span>
+      </a>
+
+      <nav class="main-nav" aria-label="Menu principal">
+        <a href="index.html">Início</a>
+        <a class="active" href="alertas.html">Alertas</a>
+        <a href="educacao.html">Educação Ambiental</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-shell">
+    <section class="hero compact-hero">
+      <div class="container">
+        <p class="eyebrow">Comunicado ambiental</p>
+        <h1>Alertas de qualidade do ar</h1>
+        <p class="hero-text">Avisos automáticos baseados em temperatura, umidade e vento atuais de João Pessoa - PB.</p>
+      </div>
+    </section>
+
+    <section class="container alert-layout" aria-labelledby="alerta-title">
+      <article class="alert-panel alert-level-loading" id="painel-alerta">
+        <div class="alert-topline">
+          <span class="alert-icon" id="alerta-icone" aria-hidden="true">!</span>
+          <div>
+            <p class="alert-label" id="alerta-grau">Grau do alerta: carregando</p>
+            <h2 id="alerta-title">Atualizando condições atmosféricas.</h2>
+          </div>
+        </div>
+
+        <p class="alert-description" id="alerta-descricao">Aguarde enquanto o EcoAir Monitor busca os dados meteorológicos atuais de João Pessoa - PB.</p>
+
+        <div class="alert-status-row" aria-label="Indicadores do alerta">
+          <span><strong>Qualidade:</strong> <span id="alerta-qualidade">--</span></span>
+          <span><strong>Risco:</strong> <span id="alerta-risco">--</span></span>
+          <span><strong>Prioridade:</strong> <span id="alerta-prioridade">--</span></span>
+        </div>
+      </article>
+
+      <section class="recommendation-panel" aria-labelledby="recomendacoes-title">
+        <div class="section-heading">
+          <p class="eyebrow">Conduta recomendada</p>
+          <h2 id="recomendacoes-title">Recomendações para a população</h2>
+        </div>
+
+        <div class="update-row compact" aria-live="polite">
+          <span id="ultima-atualizacao">Última atualização: aguardando dados</span>
+          <span class="api-status is-loading" id="status-api">Buscando dados meteorológicos</span>
+        </div>
+
+        <div class="feedback-message is-hidden" id="mensagem-erro" role="status">
+          Não foi possível atualizar os dados meteorológicos.
+        </div>
+
+        <ul class="recommendation-list" id="recomendacoes-alerta">
+          <li>Carregando recomendações automáticas.</li>
+        </ul>
+      </section>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 EcoAir Monitor. Projeto acadêmico de conscientização ambiental.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
