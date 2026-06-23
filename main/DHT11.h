@@ -1,41 +1,35 @@
 #pragma once
-
 #include <DHT.h>
-
 #define DHTTYPE DHT11
 
 class SensorDHT {
+    private:
+        int pino;
+        DHT dht;
 
-private:
+    public:
+        SensorDHT(int pino) : dht(pino, DHTTYPE)
+        {
+            this->pino = pino;
+            float temp = dht.readTemperature();
 
-    int pino;
-    DHT dht;
+            if (isnan(temp)){
+                Serial.println("Erro ao ler DHT11");
+            }
+        }
 
-public:
+        void iniciar()
+        {
+            dht.begin();
+        }
 
-    SensorDHT(int pino)
-        : pino(pino),
-          dht(pino, DHTTYPE)
-    {
-      float temp = dht.readTemperature();
+        float lerTemperatura()
+        {
+            return dht.readTemperature();
+        }
 
-      if (isnan(temp)) {
-          Serial.println("Erro ao ler DHT11");
-      }
-    }
-
-    void iniciar()
-    {
-        dht.begin();
-    }
-
-    float lerTemperatura()
-    {
-        return dht.readTemperature();
-    }
-
-    float lerUmidade()
-    {
-        return dht.readHumidity();
-    }
+        float lerUmidade()
+        {
+            return dht.readHumidity();
+        }
 };

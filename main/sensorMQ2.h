@@ -11,7 +11,14 @@ class SensorMQ2 : public Sensor
   public:
     SensorMQ2(int pino) : Sensor("MQ2")
     {
-      this->pino = pino;
+      if(pino == 34)
+      {
+        this->pino = pino;
+      }
+      else
+      {
+        this->pino = 34;
+      }
     }
 
     SensorMQ2() : Sensor("MQ2")
