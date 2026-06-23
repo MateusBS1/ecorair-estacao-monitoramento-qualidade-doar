@@ -1,6 +1,7 @@
 ECOAIR STATION: Estação de Monitoramento da Qualidade do Ar
 
 Projeto desenvolvido para as disciplinas de Ciências do Ambiente e Técnicas de Programação
+
 Instituição: Instituto de Educação Ciência e Tecnologia - Campus João Pessoa
 
 AUTORES
@@ -8,7 +9,8 @@ AUTORES
 - Taís Izabelli Souza Veronezi
 
 OBJETIVO DO PROJETO
-  Nosso projeto consiste em uma estação de monitoramento da qualidade do ar de baixo custo, que utiliza sensores para obter informações climáticas do ambinete, como temperatura e umidade, e captar a concentração de gases poluentes no ambiente, para que, dessa forma, o sistema seja capaz de determinar a qualidade atmosférica do ambiente. Inicialmente, nosso projeto foi desenvolvido para operar em ambientes fechados, mas como é um projeto recorrente e de baixo custo, pode ser facilmente aprimorado, apenas substituindo os sensores para operar em maior escala.
+
+Nosso projeto consiste em uma estação de monitoramento da qualidade do ar de baixo custo, que utiliza sensores para obter informações climáticas do ambinete, como temperatura e umidade, e captar a concentração de gases poluentes no ambiente, para que, dessa forma, o sistema seja capaz de determinar a qualidade atmosférica do ambiente. Inicialmente, nosso projeto foi desenvolvido para operar em ambientes fechados, mas como é um projeto recorrente e de baixo custo, pode ser facilmente aprimorado, apenas substituindo os sensores para operar em maior escala.
 
 COMPONENTES UTILIZADOS
 - Sensor MQ-2: Dispositivo eletrônico projetado para detectar a presença de gases inflamáveis e fumaça no ambiente;
