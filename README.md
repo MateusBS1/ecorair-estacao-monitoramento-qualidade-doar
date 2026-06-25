@@ -2,14 +2,10 @@
 
 ## Projeto desenvolvido para as disciplinas de Ciências do Ambiente e Técnicas de Programação Instituição: Instituto de Educação Ciência e Tecnologia - Campus João Pessoa
 
-<h3>AUTORES<h3/>
-<p>  
+### AUTORES
+  
 - Mateus Barbosa da Silva
-<br>
 - Taís Izabelli Souza Veronezi
-</p>
-<br>
-<br>
   
 <h3>OBJETIVO DO PROJETO<h3/>
 
