@@ -1,10 +1,10 @@
-ECOAIR STATION: Estação de Monitoramento da Qualidade do Ar
+<h1>ECOAIR STATION: Estação de Monitoramento da Qualidade do Ar<h1/>
 
-Projeto desenvolvido para as disciplinas de Ciências do Ambiente e Técnicas de Programação
+<h2>Projeto desenvolvido para as disciplinas de Ciências do Ambiente e Técnicas de Programação<h2/>
 
-Instituição: Instituto de Educação Ciência e Tecnologia - Campus João Pessoa
+<h2>Instituição: Instituto de Educação Ciência e Tecnologia - Campus João Pessoa<h2/>
 
-AUTORES
+<h2>AUTORES<h2/>
 - Mateus Barbosa da Silva
 - Taís Izabelli Souza Veronezi
 
