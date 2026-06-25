@@ -7,6 +7,7 @@
 <h2>AUTORES<h2/>
 <p>  
 - Mateus Barbosa da Silva
+<br>
 - Taís Izabelli Souza Veronezi
 </p>
   
