@@ -5,9 +5,11 @@
 <h2>Instituição: Instituto de Educação Ciência e Tecnologia - Campus João Pessoa<h2/>
 
 <h2>AUTORES<h2/>
+<p>  
 - Mateus Barbosa da Silva
 - Taís Izabelli Souza Veronezi
-
+</p>
+  
 OBJETIVO DO PROJETO
 
 Nosso projeto consiste em uma estação de monitoramento da qualidade do ar de baixo custo, que utiliza sensores para obter informações climáticas do ambinete, como temperatura e umidade, e captar a concentração de gases poluentes no ambiente, para que, dessa forma, o sistema seja capaz de determinar a qualidade atmosférica do ambiente. Inicialmente, nosso projeto foi desenvolvido para operar em ambientes fechados, mas como é um projeto recorrente e de baixo custo, pode ser facilmente aprimorado, apenas substituindo os sensores para operar em maior escala.
