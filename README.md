@@ -1,4 +1,4 @@
-### ⚙️ECOAIR STATION: Estação de Monitoramento da Qualidade do Ar ⚡
+# ⚙️ECOAIR STATION: Estação de Monitoramento da Qualidade do Ar ⚡
 
 <h2>Projeto desenvolvido para as disciplinas de Ciências do Ambiente e Técnicas de Programação<h2/>
 
