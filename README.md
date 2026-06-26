@@ -12,7 +12,7 @@
 ---
 
 ### OBJETIVO DO PROJETO
-Nosso projeto consiste em uma estação de monitoramento da qualidade do ar de baixo custo, que utiliza sensores para obter informações climáticas do ambinete, como temperatura e umidade, e captar a concentração de gases poluentes no ambiente, para que, dessa forma, o sistema seja capaz de determinar a qualidade atmosférica do ambiente. Inicialmente, nosso projeto foi desenvolvido para operar em ambientes fechados, mas como é um projeto recorrente e de baixo custo, pode ser facilmente aprimorado, apenas substituindo os sensores para operar em maior escala.
+Nosso projeto consiste em uma estação de monitoramento da qualidade do ar de baixo custo, que utiliza sensores para obter informações climáticas do ambiente, como temperatura e umidade, e captar a concentração de gases poluentes no ambiente, para que, dessa forma, o sistema seja capaz de determinar a qualidade atmosférica do ambiente, além de facilitar o entendimento acerca da dinâmica climática do local, pela identificação de padrões de alteração de suas variáveis atmosféricas (temperatura e umidade). Inicialmente, nosso projeto foi desenvolvido para operar em ambientes fechados, mas como é um projeto recorrente e de baixo custo, pode ser facilmente aprimorado, apenas substituindo os sensores por componentes mais sofisticados e uma estrutura mais robusta para operar em maior escala.
 
 ---
 
