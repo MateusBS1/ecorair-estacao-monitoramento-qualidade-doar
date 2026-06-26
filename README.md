@@ -1,7 +1,7 @@
 # ⚙️EcoAir Station: Estação de Monitoramento da Qualidade do Ar⚡
 
-Projeto desenvolvido para as disciplinas de Ciências do Ambiente e Técnicas de Programação 
-Instituição: Instituto de Educação Ciência e Tecnologia - Campus João Pessoa
+### Projeto desenvolvido para as disciplinas de Ciências do Ambiente e Técnicas de Programação 
+### Instituição: Instituto de Educação Ciência e Tecnologia - Campus João Pessoa 
 
 ### AUTORES
   
